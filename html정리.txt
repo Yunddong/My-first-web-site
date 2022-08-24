@@ -1,0 +1,26 @@
+HTML
+<strong></strong> : 글자를 굵게
+<u></u> : 글자아래 밑줄
+<h1></h1> : 헤드(제목), H1~H6활용가능, 숫자가 커질수록 글자가 작아짐
+<br> : 줄바꿈
+<p></p> : 단락 설정(정해져 있는 여백만큼만 벌어짐_css로 해결 가능)
+<img> : 이미지 넣기 (src="이미지 이름" width="XX%폭,너비,비율")
+<li></li> : 리스트, 목차 
+<ul></ul> : 리스트의 부모태그, 리스트를 묶어서 정리 Unordered List
+<ol></ol> : 리스트의 부모태그, 리스트를 숫자로 묶어서 정리 Ordered List
+<table></table> : 표 작성 <tr>과 <td>와 같이다님
+<title></title> : 웹페이지의 이름 설정
+<meta charset="utf-8"> : utf-8 방식으로 문서를 읽어서 출력해라
+기본구조 : 
+<!doctype html><html><head>내용을 설명하는 태그</head><body>웹페이지의 내용</body></html>
+<a href="링크"> : 링크 anchor(닻), Hypertent REFerence(참조) targer="blank"(새창), title"마우스 갖다 댔을때 뜨는 제목"
+<!-- 내용 --> 이 안에있는 태그들은 없는 셈 쳐라
+
+127.0.0.1 : 자신의 컴퓨터를 가리킴
+
+
+
+CSS
+;  : 구분자 한줄에 쓸경우 구분 지을 수 있는 , 같은 느낌
+id 선택자( #id{} ) > class 선택자( .class{} ) > tag 선택자( tag{} ) 순서 : id선택자가 가장 우선이다. 같은 선택자라면 마지막 선택자가 우선.
+/*내용*/ : 주석입력
